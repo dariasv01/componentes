@@ -7,8 +7,13 @@
 </ion-header>
 
 <ion-content>
-  <div class="ion-padding">
-    The world is your oyster.
-    <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
-  </div>
+  <h1>Sheet</h1>
+  <ion-button (click)="presentActionSheet()">Show Action Sheet</ion-button><br>
+  <h1>Alert</h1>
+  <ion-button (click)="presentAlert()">Show Alert</ion-button>
+  <ion-button (click)="presentAlertMultipleButtons()">Show Alert (multiple buttons)</ion-button>
+  <ion-button (click)="presentAlertConfirm()">Show Alert (confirm)</ion-button>
+  <ion-button (click)="presentAlertPrompt()">Show Alert (prompt)</ion-button>
+  <ion-button (click)="presentAlertRadio()">Show Alert (radio)</ion-button>
+  <ion-button (click)="presentAlertCheckbox()">Show Alert (checkbox)</ion-button>
 </ion-content>
